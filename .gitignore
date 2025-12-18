@@ -1,0 +1,58 @@
+# .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.rsuser
+*.scproj*
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.code-workspace
+
+# Logs / temp files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# User secrets / local settings
+appsettings.Local.json
+*.Secrets.json
+
+# Aspire artifacts
+*.dscache
+**/AppHost/obj/Aspire/**
+
+# Node / front-end artifacts
+node_modules/
+.npm/
+pnpm-lock.yaml
+package-lock.json
+.yarn/
+.yarnrc*
+.next/
+.turbo/
+.dist/
+dist/
+build/
+out/
+coverage/
+
+# Playwright downloads/cache
+playwright-report/
+playwright/.cache/
+test-results/
+
+# Tailwind / PostCSS
+*.css.map
+
+# Misc
+.env
+.env.*
+.idea/
+.DS_Store
