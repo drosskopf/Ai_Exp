@@ -1,0 +1,6 @@
+@Ai_Exp.Web.Api_HostAddress = http://localhost:5265
+
+GET {{Ai_Exp.Web.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
